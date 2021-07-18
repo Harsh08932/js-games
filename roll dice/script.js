@@ -72,7 +72,8 @@ btnNew.addEventListener('click', function () {
   player1.classList.remove('player--winner');
   diceel.classList.add('hidden');
   state = true;
-  player0.classList.toggle('player--active');
+  player0.classList.add('player--active');
+  player0.classList.remove('player--active');
   scores = [0, 0];
   score = 0;
   active = 0;
